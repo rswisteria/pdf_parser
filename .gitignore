@@ -37,3 +37,5 @@
 !/app/assets/builds/.keep
 
 /.idea
+**/*.stories.json
+/node_modules
