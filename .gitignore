@@ -39,3 +39,4 @@
 /.idea
 **/*.stories.json
 /node_modules
+*storybook.log

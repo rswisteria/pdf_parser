@@ -38,5 +38,11 @@ module PdfParser
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    config.view_component_storybook.stories_paths << Rails.root.join("spec/components/stories")
+    config.view_component_storybook.stories_title_generator = lambda { |stories|
+      stories.stories_name.humanize.delete_prefix("Namespace/").titlecase
+    }
+    config.action_controller.asset_host = "http://localhost:3000"
   end
 end

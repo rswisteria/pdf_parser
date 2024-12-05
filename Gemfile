@@ -33,7 +33,7 @@ gem "solid_cable"
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-# Deploy this application anywhere as a Docker container [https://kamal-deploy.org]
+# Deploy this application anywhereR as a Docker container [https://kamal-deploy.org]
 gem "kamal", require: false
 
 # Add HTTP asset caching/compression and X-Sendfile acceleration to Puma [https://github.com/basecamp/thruster/]
@@ -44,6 +44,7 @@ gem "image_processing", "~> 1.2"
 gem "poppler"
 gem "active_storage_validations"
 gem "view_component"
+gem "rack-cors"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
