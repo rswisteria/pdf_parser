@@ -1,13 +1,14 @@
 <header class="m-0 bg-blue-500 w-full">
   <nav class="flex flex-row justify-between">
     <div class="m-5">
-      <a href="/" class="text-white text-lg">PDF Parser</a>
+      <a href="/app/assets/builds" class="text-white text-lg">PDF Parser</a>
     </div>
     <div class="m-5">
       <% if @user.nil? %>
         <a class="text-white" href="<%= new_session_path %>">Login</a>
       <% else %>
         <span class="text-white"><%= @user.email_address %></span>
+        <span>hoge</span>
       <% end %>
     </div>
   </nav>

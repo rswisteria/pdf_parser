@@ -324,6 +324,7 @@ GEM
       rubocop-minitest
       rubocop-performance
       rubocop-rails
+    ruby-next-core (1.0.3)
     ruby-progressbar (1.13.0)
     ruby-vips (2.2.2)
       ffi (~> 1.12)
@@ -394,6 +395,9 @@ GEM
       activesupport (>= 5.2.0, < 8.1)
       concurrent-ruby (~> 1.0)
       method_source (~> 1.0)
+    view_component-contrib (0.2.3)
+      ruby-next-core (>= 0.15.0)
+      view_component
     view_component-storybook (1.0.0)
       view_component (>= 2.54)
       yard (~> 0.9.25)
@@ -451,6 +455,7 @@ DEPENDENCIES
   turbo-rails
   tzinfo-data
   view_component
+  view_component-contrib
   view_component-storybook
   web-console
 
