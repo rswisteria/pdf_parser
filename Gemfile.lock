@@ -216,6 +216,9 @@ GEM
       ast (~> 2.4.1)
       racc
     pkg-config (1.5.8)
+    polaris_view_components (2.2.4)
+      rails (>= 5.0.0)
+      view_component (>= 3.0.0, < 4.0.0)
     poppler (4.2.4)
       cairo-gobject (= 4.2.4)
       gio2 (= 4.2.4)
@@ -438,6 +441,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   kamal
+  polaris_view_components
   poppler
   propshaft
   puma (>= 5.0)

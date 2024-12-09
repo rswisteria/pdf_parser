@@ -5,10 +5,16 @@
     </div>
     <div class="m-5">
       <% if @user.nil? %>
-        <a class="text-white" href="<%= new_session_path %>">Login</a>
+        <a class="text-white" href="<%= new_session_path %>">ログイン</a>
       <% else %>
         <span class="text-white"><%= @user.email_address %></span>
-        <span>hoge</span>
+        <nav>
+          <ul>
+            <li>
+              <%= link_to "ログアウト", session_path, data: { turbo_method: :delete }, class: "text-white" %>
+            </li>
+          </ul>
+        </nav>
       <% end %>
     </div>
   </nav>

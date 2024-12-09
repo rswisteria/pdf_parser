@@ -45,6 +45,7 @@ gem "poppler"
 gem "active_storage_validations"
 gem "view_component"
 gem "view_component-contrib"
+gem "polaris_view_components"
 gem "rack-cors"
 
 group :development, :test do
